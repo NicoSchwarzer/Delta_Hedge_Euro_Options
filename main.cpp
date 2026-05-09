@@ -44,8 +44,7 @@ int main()
     MyOption1.ReplicatingStrategyBondPositions(MyModel);
     cout << "y(0) for replicating strategy is " << MyOption1.GetReplicatingY(0,0) <<  endl;
 
-    cout << " --- Output for Ex 1.2 --- \n";
-    cout << "Choose any m,i for exemplary code output for Ex 1.2 -  first m, then i.\n";
+    cout << "Choose any m,i -  first m, then i.\n";
     int m_ex12, i_ex12;
     cin >> m_ex12;
     cin >> i_ex12;
@@ -75,8 +74,6 @@ int main()
 
 
 
-
-    cout << " --- Input & Output for Ex 1.3 and 1.4 --- \n";
 
     cout << "Enter the number of options to consider for your strategy :\n";
     int M;
